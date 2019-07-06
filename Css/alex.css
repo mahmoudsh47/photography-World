@@ -1,0 +1,95 @@
+body
+{
+    margin: 0;
+    padding: 0;
+    background: #262626;
+    font-family: sans-serif
+}
+
+.container
+{
+    width: 1280px;
+    min-height: 500px;
+    background: #262626;
+   display: flex;
+   flex-direction: row;
+   flex-wrap: wrap;
+    margin: 70px auto 0;
+}
+
+ h1
+{
+    font-size: 50px;
+    color: black;
+    font-weight: bold;
+    position: relative;
+    left: 15px;
+    text-shadow: 0 2px 5px rgba(0, 0, 0, .5);
+    margin-top: 20px;
+}
+.container .box
+{
+    position: relative;
+    width: 250px;
+    height: 250px;
+    background: #ff0;
+    margin: 10px;
+    box-sizing: border-box;
+    display: inline-block;
+}
+
+.container .box .ibox
+{
+    position: relative;
+overflow: hidden;
+}
+
+.container .box .ibox img{
+    max-width: 135%;
+    max-height: 150%;
+    transition: transform 2s;
+}
+
+.container .box:hover .ibox img{
+    transform: scale(1.2)
+}
+
+.container .box .imbox
+{
+    position: relative;
+overflow: hidden;
+}
+
+.container .box .imbox img{
+    max-width: 100%;
+    max-height: 150%;
+    transition: transform 2s;
+}
+
+.container .box:hover .imbox img{
+    transform: scale(1.2)
+}
+
+
+.container .box .mbox
+{
+    position: relative;
+overflow: hidden;
+}
+
+.container .box .mbox img{
+    max-width: 150%;
+    max-height: 150%;
+    transition: transform 2s;
+}
+
+.container .box:hover .mbox img{
+    transform: scale(1.2)
+}
+
+
+
+footer{
+    height: 50px;
+    text-align: center;
+}

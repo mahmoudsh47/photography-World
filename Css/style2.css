@@ -1,0 +1,67 @@
+body{
+    font-family: sans-serif;
+}
+
+@font-face {
+    font-family: t;
+    src: url('../font/Vtks Demolition.ttf');
+    }
+
+   
+
+h1{
+    text-align: center;
+    color: rgb(214, 236, 214);
+    margin: 30px 0 50px;
+    font-family: t;
+}
+
+.alexandria{
+background-color: rgb(48, 46, 46);
+margin: auto;
+
+}
+
+.Downtown{
+    background-color: rgb(48, 46, 46);
+    margin: auto;
+    
+    }
+
+.gallery{
+    margin: 10px 50px;
+    text-align: center;
+}
+
+.gallery img{
+    width: 230px;
+    padding: 5px;
+    margin-right: 25px;
+    filter: grayscale(100%);
+    transition: 1s
+}
+
+.gallery img:hover{
+    filter: grayscale(0);
+    transform: scale(1.1);
+}
+
+
+
+@media only acreen and (max-width:600px){
+    body{
+        margin-top: 190px;
+    }
+    .showcase{
+        height:400px ;
+        padding: 60px 0;
+    }
+    .top{
+        height:400px ;
+        padding: 60px 0;
+    }
+}
+
+footer{
+    text-align: center;
+}

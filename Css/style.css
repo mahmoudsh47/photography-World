@@ -1,0 +1,111 @@
+*
+{
+    margin: 0;
+    padding: 0;
+}
+
+@font-face {
+    font-family: title;
+    src: url('../font/finished-sympathy/Finished\ Sympathy.otf');
+}
+
+@font-face {
+    font-family: c;
+    src: url('../font/IMFePIrm29P.ttf');
+    font-size: 25px;
+    }
+.navbar
+{
+    font-size: 1.2em;
+    background-color: rgb(145, 143, 143);
+}
+.navbar-brand{
+    min-height: 55px;
+    padding:  15px 5px;
+    font-size: 50px;
+    font-family: title;
+    font-weight: bold;
+    color: black;
+}
+
+.nvs{
+    font-family: 'Times New Roman', Times, serif;
+}
+.home{
+    background: url(../img/adventure-attraction-blurry-618545.jpg) no-repeat center center fixed;
+    display: table;
+    height: 600px;
+    position: relative;
+    width: 100%;
+    background-size: cover;   
+}
+
+.landing-text{
+    display: table-cell;
+    text-align: center;
+    vertical-align: middle;
+    color: rgb(245, 244, 244);
+}
+
+.landing-text h1{
+    font-size: 500%;
+    font-weight: 700;
+}
+
+.padding{
+    padding: 80px 0;
+
+}
+
+.padding img{
+    width: 100%;
+}
+
+#fixed{
+    background: url(../img/apple-device-blur-camera-596940.jpg) no-repeat center center fixed;
+    display: table;
+    height: 60%;
+    position: relative;
+    width: 100%;
+    background-size: cover;
+}
+
+footer{
+    width: 100%;
+    background-color: #23415c;
+    padding: 5% 5% 10% 5%;
+    color: #fff;
+
+}
+
+.fa{
+    padding: 15px;
+    font-size: 25px;
+    color: #fff;
+}
+.fa:hover{
+    color: #d5d5d5;
+    text-decoration: none;
+}
+
+.icon{
+    max-width: 250px;
+}
+
+@media (max-width: 768px) {
+
+    .navbar-brand{
+        font-size: 150%;
+    }
+    .landing-text h1{
+        font-size: 300%;
+    }
+    .fa {
+        font-size: 20px;
+        padding: 10px;
+    }
+    .icon{
+        padding-top: 5%;
+        max-width: 100px;
+    }
+}
